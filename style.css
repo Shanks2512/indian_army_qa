@@ -1,0 +1,42 @@
+body {
+    background: #1b1f27;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    background: #2b2f3a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.answer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #39414e;
+    border-radius: 10px;
+}

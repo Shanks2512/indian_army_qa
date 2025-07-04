@@ -1,0 +1,23 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Army QA System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ask about Indian Army Weapons</h1>
+        <form method="POST">
+            <input type="text" name="question" placeholder="Ask a question..." required>
+            <button type="submit">Get Answer</button>
+        </form>
+        {% if answer %}
+        <div class="answer">
+            <h3>Answer:</h3>
+            <p>{{ answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
